@@ -21,11 +21,13 @@ html  {
 			}
 			
 			#header {
-				margin: 0 auto;
-				width:1000px;
+				margin: 25 auto;
+				width:829px;
 				font-family:Arial, Helvetica, sans-serif;
-                                opacity: 0.7;
-                                float:left;
+                                font-size:large;
+                                opacity: 1.0;
+                                float:right;
+                                 text-align: center;
 			}
                        
 
@@ -244,18 +246,24 @@ position: relative;
 
 
 
-                 #logo{
-background-color: black;
-position: 0 ;
+               #logo{
+background-color:black;
+position: left ;
+
 opacity: 0.9;
   left: 0;
   bottom: 0;
   width: 1000;
  
   color: white ;
-  text-align: left ;
+  
  margin:  0;
    width: 100%;
+
+text-shadow:
+      1px 1px 1px #ffffff;
+
+box-shadow: 2px 2px 4px #000000;
 }
 
 
